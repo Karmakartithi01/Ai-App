@@ -1,0 +1,46 @@
+body {
+    background-color: #f8f9fa;
+    transition: background 0.5s ease-in-out;
+}
+
+.dark-mode {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.dark-mode .card {
+    background: #2d2d2d;
+}
+
+.drop-zone {
+    border: 2px dashed #007bff;
+    padding: 2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.drop-zone:hover {
+    background: #f1f3f5;
+}
+
+.dark-mode .drop-zone {
+    background: #2d2d2d;
+}
+
+.processing {
+    display: none;
+    margin-top: 20px;
+}
+
+canvas {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    border-radius: 25px;
+}
