@@ -54,7 +54,7 @@ gunicorn -w 4 -b 0.0.0.0:5000 app:app
 - JavaScript & Bootstrap 🎨  
 
 ## 🏆 Credits  
-Made with ❤️ by Joy Karmakar  
+Made with ❤️ by Tithi Karmakar  
 
 ---  
 Enjoy AI-powered object detection! 🚀
